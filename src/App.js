@@ -86,7 +86,7 @@ fetchCityName(data),
         </h1>
         <p><a href="https://github.com/steveostudios/city-face-off">Github</a></p>
       </header>
-      <div class="ring">
+      <div className="ring">
       <div className="city">
       <CityPicker cities={cities} side="a" setCity={fetchCity} city={cityA} />
       <CityViewer city={cityA}/>
