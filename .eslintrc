@@ -1,9 +1,0 @@
-{"extends": [
-    "plugin:flowtype/recommended",
-    "prettier",
-    "prettier/react"
-  ],
-  "plugins": [
-    "prettier",
-    "flowtype"
-  ]}
