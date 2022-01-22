@@ -34,13 +34,24 @@ grid-template-columns: 1fr 1fr 1fr;
 margin: 1rem
 }
 
-
 .App .ring .viewer img {
   width: 100%;
 }
 
 a, a:visited {
   color: #fff;
-
   padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .App .ring .viewer .bars {
+    display: flex;
+    flex-direction: column;
+  }
+  .App .ring .viewer .bars > *{
+    width: 100%;
+  }
+  .App .ring .viewer .bars span {
+    margin-bottom: 1rem;
+  }
 }
