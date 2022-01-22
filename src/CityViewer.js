@@ -1,7 +1,7 @@
 function CityViewer(props) {
   return (
+    props.city.name ?
     <div className="viewer">
-      {props.city.name ?
         <div>
           <h2>{props.city.full_name}</h2>
           <img src={props.city.photo.image.web} alt={props.city.name}/>
@@ -25,8 +25,8 @@ function CityViewer(props) {
           <span>{props.city.startups.toFixed(2)}</span>
         </div>
         </div>
-      : "loading"}
-    </div> 
+        </div> 
+        : null
   );
 }
 

@@ -84,7 +84,7 @@ fetchCityName(data),
         <h1>
         City Face-Off
         </h1>
-        <p>Compare two cities!</p>
+        <p><a href="https://github.com/steveostudios/city-face-off">Github</a></p>
       </header>
       <div class="ring">
       <div className="city">
